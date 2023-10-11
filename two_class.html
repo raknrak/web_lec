@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;        
+        }
+
+        .red-box{
+            background-color: red;       
+        }
+
+        .green-box{
+            background-color: green; 
+            /*기준점으로 부터 100만큼 떨어짐 */
+            position: relative;
+            left: 140px;        
+        }
+       
+        .blue-box{
+            background-color: blue;          
+        }
+    </style>
+</head>
+<body>
+    <!-- box 클래스와 red-box 클래스 같이 사용 -->    
+    <div class="box red-box"></div>
+    <div class="box green-box"></div>
+    <div class="box blue-box"></div>
+</body>
+</html>
