@@ -1,0 +1,17 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px; 
+    grid-template-rows: repeat(4, 100px);
+    row-gap: 10px;
+    column-gap: 20px;
+    /* 양쪽이 같을 경우 gap: px; */
+}
+.grid-item{
+    color: white;
+    background-color: #ff5252;
+
+}
+.grid-item:nth-child(2n){
+    background-color: #bf5e5e;
+}
